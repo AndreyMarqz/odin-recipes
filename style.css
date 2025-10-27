@@ -1,0 +1,302 @@
+/*Home page*/
+html, body{
+    font-family: 'Garamond', 'sans-serif';
+    height: 100%;
+    margin: 0;
+    background-color: bisque;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    height: auto;
+    width: 400px;
+}
+
+.title{
+    text-align: center;
+}
+
+.recipes a {
+    font-size: 20px;
+    display: block;
+    margin: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*Lasagna page*/
+.lasagna .container {
+    background-color: white;
+    height: auto;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.lasagna .title {
+    margin: 0;
+    padding: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.lasagna .home {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.lasagna .container .image {
+    display: block;
+}
+
+.lasagna .image {
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.lasagna .description {
+    margin-top: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244);
+}
+
+.lasagna .description h2 {
+    margin-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.lasagna .description p {
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.lasagna .ingredients {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244); 
+}
+
+.lasagna .ingredients h2 {
+    margin-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.lasagna .container .ingredients h2 {
+    text-align: center;
+}
+
+.lasagna .container .description h2 {
+    text-align: center;
+}
+
+.lasagna .ingredients ul {
+    text-align: center;
+    column-count: 2;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/*Braised Beef page*/
+.braisedbeef .container {
+    background-color: white;
+    height: auto;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.braisedbeef .title {
+    margin: 0;
+    padding: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.braisedbeef .home {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.braisedbeef .container .image {
+    display: block;
+}
+
+.braisedbeef .image {
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.braisedbeef .description {
+    margin-top: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244);
+}
+
+.braisedbeef .description h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.braisedbeef .description p {
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.braisedbeef .ingredients {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244); 
+}
+
+.braisedbeef .ingredients h2 {
+    margin-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.braisedbeef .description p {
+    margin-top: 0px;
+}
+
+.braisedbeef .container .ingredients h2 {
+    text-align: center;
+}
+
+.braisedbeef .container .description h2 {
+    text-align: center;
+}
+
+.braisedbeef .ingredients ul {
+    text-align: center;
+    column-count: 2;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/*Chocolate Cake page*/
+.chocolatecake .container {
+    background-color: white;
+    height: auto;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.chocolatecake .title {
+    margin: 0;
+    padding: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.chocolatecake .home {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.chocolatecake .container .image {
+    display: block;
+}
+
+.chocolatecake .image {
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.chocolatecake .description {
+    margin-top: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244);
+}
+
+.chocolatecake .description h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.chocolatecake .description p {
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.chocolatecake .ingredients {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244); 
+}
+
+.chocolatecake .ingredients h2 {
+    margin-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.chocolatecake .description p {
+    margin-top: 0px;
+}
+
+.chocolatecake .container .ingredients h2 {
+    text-align: center;
+}
+
+.chocolatecake .container .description h2 {
+    text-align: center;
+}
+
+.chocolatecake .ingredients ul {
+    text-align: center;
+    column-count: 2;
+    font-size: 20px;
+    font-weight: lighter;
+}
